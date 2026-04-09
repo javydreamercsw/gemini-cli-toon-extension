@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "TOON (Token Oriented Object Notation) integration for Gemini CLI to optimize context efficiency.",
   "author": "Javier Ortiz Bultron",
-  "entry": "dist/index.js",
-  "mcp": {
-    "server": {
+  "mcpServers": {
+    "toon-server": {
       "command": "node",
-      "args": ["dist/index.js"]
+      "args": ["${extensionPath}/dist/index.js"],
+      "cwd": "${extensionPath}"
     }
   },
   "keywords": ["gemini-cli-extension", "toon", "token-efficiency", "optimization"]
