@@ -11,7 +11,7 @@
   },
   "keywords": ["gemini-cli-extension"],
   "author": "Javier Ortiz Bultron",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
     "zod": "^4.3.6"
