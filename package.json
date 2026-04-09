@@ -10,7 +10,7 @@
     "watch": "vitest"
   },
   "keywords": ["gemini-cli-extension"],
-  "author": "",
+  "author": "Javier Ortiz Bultron",
   "license": "ISC",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
